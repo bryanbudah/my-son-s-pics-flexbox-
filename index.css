@@ -1,0 +1,87 @@
+body{
+    display:block;
+    text-align: center;
+    background-color: aqua;
+}
+.hero{
+    margin-top:250px;
+    animation-name: drop;
+    animation-duration: 3s;
+    animation-delay: 0.5ms;
+    animation-fill-mode: both;
+}
+
+img{
+border: solid red 2px;
+    max-width: 200PX;
+    border-radius: 50%;
+    margin-top:100px;
+    animation-name: drop;
+    animation-duration: 3.3s;
+    animation-delay: 1ms;
+    animation-fill-mode: both;
+    
+}
+.footer{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    max-height: 300px;
+}
+.wrapper{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.flex-container{
+    display: flex;
+    background:#fff;
+    flex-wrap:wrap;
+}
+.box{
+    height:100px;
+    flex:0 0 100px;
+    margin: 5px;
+}
+.one{
+    background:red;
+}
+.two{
+    background:blue;
+}
+.three{
+    background:green;
+}
+.four{
+    background:yellow;
+}
+
+.five{
+    background:blueviolet;
+}
+
+.six{
+    background:brown;
+}
+
+.seven{
+    background:maroon;
+}
+.eight{
+    background:pink;
+}
+
+.nine{
+    background:purple;
+}
+
+.ten{
+    background:orange;
+}
+@keyframes drop {
+    from {transform:translateY(-700px)}
+    to {transform:translateY(0px)}
+  }
+  img:hover{
+    cursor:pointer;
+   
+}

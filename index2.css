@@ -1,0 +1,89 @@
+body{
+    display:inline;
+    text-align: center;
+    background-color: aqua;
+}
+img{
+max-width: 150px;
+height: 100px;
+
+}
+.wrapper{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+}
+.flex-container{
+    display: flex;
+    background:#fff;
+    flex-wrap:wrap;
+    margin-top: 150px;
+justify-content: space-between;
+}
+
+
+.box{
+    height:100px;
+    flex:0 0 100px;
+    margin: 5px;
+}
+.one{
+    background:red;
+}
+.two{
+    background:blue;
+}
+.three{
+    background:green;
+}
+.four{
+    background:yellow;
+}
+
+.five{
+    background:blueviolet;
+}
+
+.six{
+    background:brown;
+}
+
+.seven{
+    background:maroon;
+}
+.eight{
+    background:pink;
+}
+
+.nine{
+    background:purple;
+}
+
+.ten{
+    background:orange;
+}
+img:hover{
+    cursor:pointer;
+    animation: pulse 2s ease-in-out infinite;
+}
+.myDiv {
+    width: 1000px;
+    height: 1000px;
+    overflow-x: auto;/* or 'overflow: scroll;' */
+    margin:10px, 4px;
+    text-align: justify;
+
+            }
+@keyframes pulse 
+{ 
+    0% {
+                    transform: scale(1);
+                }
+                50% {
+                    transform: scale(1.1);
+                }
+                100% {
+                    transform: scale(1);
+                }
+            }
+            
